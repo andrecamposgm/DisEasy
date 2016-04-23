@@ -1,4 +1,4 @@
-package com.diseasy;
+package com.thiseasy;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,9 +7,9 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = DiseasyApplication.class)
+@SpringApplicationConfiguration(classes = ThiseasyApplication.class)
 @WebAppConfiguration
-public class DiseasyApplicationTests {
+public class ThiseasyApplicationTests {
 
 	@Test
 	public void contextLoads() {
