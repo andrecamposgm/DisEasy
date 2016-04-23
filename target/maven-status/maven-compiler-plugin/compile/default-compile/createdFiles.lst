@@ -1,0 +1,4 @@
+com/thiseasy/model/User.class
+com/thiseasy/repository/IUserRepository.class
+com/thiseasy/controller/UserController.class
+com/thiseasy/ThiseasyApplication.class
