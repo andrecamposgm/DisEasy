@@ -85,3 +85,12 @@
 #MainMap {
     height: 100vh;
 }
+
+/* Leaflet */
+.leaflet-google-layer {
+    z-index: 0 !important;
+}
+
+.leaflet-map-pane {
+    z-index: 100;
+}
