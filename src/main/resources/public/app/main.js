@@ -1,4 +1,5 @@
-var Helpers = {};
+var Helpers = {}
+    , Maps  = {};
 
 Helpers.getLocation = function (callback) {
     if (navigator.geolocation) {
@@ -10,6 +11,11 @@ Helpers.getLocation = function (callback) {
     }
 };
 
+Maps.MainMap = L.map('MainMap').setView([51.505, -0.09], 13); 
+
+Maps.GoogleLayer = new L.Google('ROADMAP'); 
+
+Maps.MainMap.addLayer(Maps.GoogleLayer);
 
 $(document).ready(function () {
 
