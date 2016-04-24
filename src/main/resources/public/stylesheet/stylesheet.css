@@ -1,48 +1,87 @@
 #leftbar {
-  width: 30%;
-  height: 100vh;
-  float: left;
-  overflow-y: auto;
-  background: #5EC352;
-  box-shadow: inset -5px 0px 13px 0px rgba(0,0,0,0.5);
+    width: 30%;
+    height: 100vh;
+    float: left;
+    overflow-y: auto;
+    background: #5EC352;
+    box-shadow: inset -5px 0px 13px 0px rgba(0, 0, 0, 0.5);
 }
 
 #leftbar-title {
-  font-size: 30px;
-  font-family: cursive;
-  font-weight: bold;
-  color: rgba(0,0,0,0.6);
-  width: 100%;
-  text-align: center;
-  padding: 8px 0;
-  border-bottom: 2px solid rgba(0,0,0,0.3);
-  display: table;
-  background: rgba(0,0,0,0.2);
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    display: table;
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .leftbar-item {
-  display: table;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 0 15px;
-  margin-bottom: 10px;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin-bottom: 10px;
 }
 
 .leftbar-item h4 {
-  color: rgba(0,0,0,0.6);
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#PeopleSearch {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #5EC352;
+}
+
+#Peoples {
+    list-style: none;
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    background: #FFF;
+}
+
+#Peoples li {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #DDD;
+}
+
+#Peoples li:hover {
+    background: #DDE0DC;
+}
+
+#Peoples li:last-child {
+    border-bottom: none;
+}
+
+#Peoples img {
+    width: 50px;
+    height: 50px;
+}
+
+#Peoples span {
+    color: #333;
 }
 
 #filters select {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 #rightbar {
-  width: 70%;
-  height: 100vh;
-  display: table;
-  float: left;
+    width: 70%;
+    height: 100vh;
+    display: table;
+    float: left;
 }
 
 #MainMap {
-  height: 100vh; 
+    height: 100vh;
 }
