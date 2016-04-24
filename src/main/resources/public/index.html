@@ -7,7 +7,32 @@
     <link rel="stylesheet" href="stylesheet/stylesheet.css">
   </head>
   <body>
-    <div id='MainMap'></div>
+
+    <div id="leftbar">
+      <div id="leftbar-title">ThisEasy</div>
+      <div id="leftbar-content">
+          <div id="filters" class="leftbar-item">
+              <h4>Filters</h4>
+              <select id="disease" class="form-control">
+                  <option>Disease</option>
+                  <option>Dengue</option>
+                  <option>Zikka</option>
+              </select>
+              <select id="location" class="form-control">
+                <option>location</option>
+                <option>Fortaleza</option>
+                <option>São Paulo</option>
+              </select>
+          </div>
+          <div id="whoIsSick" class="leftbar-item">
+            <h4>Who Is Sick</h4>
+            <input type="search" placeholder="Search" class="form-control">
+          </div>
+      </div>
+    </div>
+    <div class="rightbar">
+      <div id='MainMap'></div>
+    </div>
 
     <script type='application/javascript' src='third_party/jquery/dist/jquery.min.js'></script>
     <script type='application/javascript' src='third_party/bootstrap/dist/js/bootstrap.min.js'></script>

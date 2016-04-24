@@ -1,3 +1,48 @@
-#MainMap { 
+#leftbar {
+  width: 30%;
+  height: 100vh;
+  float: left;
+  overflow-y: auto;
+  background: #5EC352;
+  box-shadow: inset -5px 0px 13px 0px rgba(0,0,0,0.5);
+}
+
+#leftbar-title {
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: bold;
+  color: rgba(0,0,0,0.6);
+  width: 100%;
+  text-align: center;
+  padding: 8px 0;
+  border-bottom: 2px solid rgba(0,0,0,0.3);
+  display: table;
+  background: rgba(0,0,0,0.2);
+}
+
+.leftbar-item {
+  display: table;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 15px;
+  margin-bottom: 10px;
+}
+
+.leftbar-item h4 {
+  color: rgba(0,0,0,0.6);
+}
+
+#filters select {
+  margin-bottom: 10px;
+}
+
+#rightbar {
+  width: 70%;
+  height: 100vh;
+  display: table;
+  float: left;
+}
+
+#MainMap {
   height: 100vh; 
 }
