@@ -1,7 +1,4 @@
-/Users/andrecampos/Desktop/thiseasy/thiseasy/src/main/java/com/thiseasy/repository/IMovieRepository.java
-/Users/andrecampos/Desktop/thiseasy/thiseasy/src/main/java/com/thiseasy/data/User.java
 /Users/andrecampos/Desktop/thiseasy/thiseasy/src/main/java/com/thiseasy/repository/IUserRepository.java
-/Users/andrecampos/Desktop/thiseasy/thiseasy/src/main/java/com/thiseasy/controller/RestServiceController.java
-/Users/andrecampos/Desktop/thiseasy/thiseasy/src/main/java/com/thiseasy/data/Movie.java
+/Users/andrecampos/Desktop/thiseasy/thiseasy/src/main/java/com/thiseasy/model/User.java
 /Users/andrecampos/Desktop/thiseasy/thiseasy/src/main/java/com/thiseasy/ThiseasyApplication.java
 /Users/andrecampos/Desktop/thiseasy/thiseasy/src/main/java/com/thiseasy/controller/UserController.java
