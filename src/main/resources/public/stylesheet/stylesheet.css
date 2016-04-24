@@ -103,6 +103,18 @@
     font-weight: bold;
 }
 
+#notifyDisease {
+    padding-top: 10px;
+}
+
+#notifyDisease input, #notifyDisease select {
+    margin-bottom: 5px;
+}
+
+#notifyDisease button {
+    width: 100%;
+}
+
 /* Leaflet */
 .leaflet-google-layer {
     z-index: 0 !important;
