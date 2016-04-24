@@ -24,6 +24,7 @@ public class DiseaseRegister {
     private Double latitude;
     private Double longitude;
     private Date registerDate;
+    private String color;
 
     public User getInfected() {
         return infected;
@@ -63,6 +64,14 @@ public class DiseaseRegister {
 
     public void setRegisterDate(Date registerDate) {
         this.registerDate = registerDate;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public String setColor(String color) {
+        return this.color = color;
     }
 
     public Long getId() {
